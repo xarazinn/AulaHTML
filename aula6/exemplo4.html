@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1
+        {
+            background-color: darkred;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        table, td
+        {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        th
+        {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aula 05 - Exemplo 4</h1>
+    <h3>Exemplo do rowspan</h3>
+    <table>
+        <tr>
+            <th>aula</th>
+            <th>Quarta feira</th>
+            <th>Quinta feira</th>
+            <th>Sexta-feira</th>
+        </tr>
+       
+        <tr>
+            <td style="background-color: darkgray">1ª aula</td>
+            <td rowspan="2" style="text-align: center;">P.A.</td>
+            <td style="text-align: center;">Matemática</td>
+            <td style="text-align: center;">Química</td>
+        </tr>
+        <tr>
+            <td style="background-color: darkgray">2ª aula</td>
+            <td style="text-align: center;">Português</td>
+            <td rowspan="2" style="text-align: center;">Educação física</td>
+        </tr>
+        <tr>
+            <td style="background-color: darkgray">3ª aula</td>
+            <td style="text-align: center;">Arte</td>
+            <td rowspan="2"style="text-align: center;">Interfaces web</td>
+        </tr>
+        <tr>
+            <td style="background-color: darkgray">4ª aula</td>
+            <td style="text-align: center;">Geografia</td>
+            <td style="text-align: center;">Biologia</td>
+        </tr>
+        <tr>
+            <td style="background-color: darkgray">5ª aula</td>
+            <td rowspan="2" style="text-align: center;">Inglês</td>
+            <td style="text-align: center;">Química</td>
+            <td rowspan="2" style="text-align: center;">Banco de dados</td>
+        </tr>
+        <tr>
+            <td style="background-color: darkgray">6ª aula</td>
+            <td style="text-align: center;">Matemática</td>
+        </tr>
+    </table>
+</body>
+</html>

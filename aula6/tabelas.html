@@ -32,9 +32,31 @@
 </head>
 <body>
     <h1>Tabelas em HTML</h1>
+    <table>
+    <tr>
+        <th>Coluna 1</th>
+        <th>Coluna 2</th>
+        <th>Coluna 3</th>
+        <th>Coluna 4</th>
+    </tr>
+    <tr>
+        <td colspan="2">Guilherme</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td colspan="3">Gustavo</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td colspan="4">Felipe</td>
+    </tr>
+    </table>
+    
     <h3>Aulas</h3>
     <table>
         <tr>
+            <th>Horários</th>
             <th>Segunda</th>
             <th>Terça</th>
             <th>Quarta</th>
@@ -42,46 +64,44 @@
             <th>Sexta</th>
         </tr>
         <tr>
+            <th>7:10</th>
             <td>Biologia</td>
             <td>Artes</td>
-            <td>P.A.</td>
-            <td>Matemática</td>
+            <td rowspan="2">P.A.</td>
+            <td rowspan="2">Matemática</td>
             <td>Português</td>
         </tr>
         <tr>
-            <td>História</td>
-            <td>Arte digital</td>
-            <td>P.A.</td>
-            <td>Matemática</td>
+            <th>8:00</th>
+            <td rowspan="2">História</td>
+            <td rowspan="2">Arte digital</td>
             <td>Educação Física</td>
         </tr>
         <tr>
-            <td>História</td>
-            <td>Arte digital</td>
+            <th>8:50</th>
             <td>Artes</td>
-            <td>Interfaces web</td>
+            <td rowspan="2">Interfaces web</td>
             <td>Biologia</td>
         </tr>
         <tr>
+            <th>10:00</th>
             <td>Física</td>
-            <td>PTIC</td>
+            <td rowspan="2">PTIC</td>
             <td>Inglês</td>
-            <td>Interfaces web</td>
             <td>Educação Física</td>
         </tr>
         <tr>
+            <th>10:50</th>
             <td>Geografia</td>
-            <td>PTIC</td>
             <td>Geografia</td>
-            <td>Química</td>
-            <td>Banco de dados</td>
+            <td rowspan="2">Química</td>
+            <td rowspan="2">Banco de dados</td>
         </tr>
         <tr>
+            <th>11:40</th>
             <td>Português</td>
             <td>Física</td>
             <td>Inglês</td>
-            <td>Química</td>
-            <td>Banco de dados</td>
         </tr>
     </table>
 </body>
