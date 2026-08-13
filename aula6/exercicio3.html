@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, td
+        {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 20px;
+        }
+        th
+        {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 20px;
+            background-color: darkgray;
+        }
+        h1
+        {
+            background-color: orange;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        </style>
+</head>
+<body>
+    <h1>Aula 05 - Exercício 3 de tabelas</h1>
+    <table>
+        <tr>
+            <th colspan="4">Cardápio</th>
+        </tr>
+        <tr>
+            <th>Categoria</th>
+            <th>Produto</th>
+            <th>Tamanho</th>
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <th rowspan="3">Pizzas</th>
+            <td>Muçarela</td>
+            <td>Grande</td>
+            <td>R$ 45,00</td>
+        </tr>
+        <tr>
+            <td>Calabresa</td>
+            <td>Grande</td>
+            <td>R$ 48,00</td>
+        </tr>
+        <tr>
+            <td>Marguerita</td>
+            <td>Grande</td>
+            <td>R$ 50,00</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Bebidas</th>
+            <td>Refrigerante</td>
+            <td>2 Litros</td>
+            <td>R$ 12,00</td>
+        </tr>
+        <tr>
+            <td>Suco</td>
+            <td>1 Litro</td>
+            <td>R$ 10,00</td>
+        </tr>
+        <tr>
+            <th colspan="3">Promoção: Pizza + Refrigerante</th>
+            <th>R$ 55,00</th>
+        </tr>
+        <tr>
+            <th colspan="4">Pedidos acima de R$ 50,00 tem entrega gratis</th>
+        </tr>
+    </table>
+</body>
+</html>
