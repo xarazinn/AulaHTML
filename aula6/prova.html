@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td
+        {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 20px;   
+        }
+        th
+        {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 20px;
+            background-color: gray;
+        }
+        h1
+        {
+           background-color: orange;
+           color: white;
+           padding: 20px;
+           text-align: center; 
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Produto</th>
+            <th>Sabor</th>
+            <th>Preço</th>
+            <th colspan="2">Combos</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Esfirra</th>
+            <td>Bauru</td>
+            <td>R$ 7,00</td>
+            <td>Bauru</td>
+            <td>Brigadeiro</td>
+        </tr>
+        <tr>
+            <td>Brigadeiro</td>
+            <td>R$ 7,50</td>
+            <td colspan="2" style="text-align: center;">R$ 12,50</td>
+        </tr>
+    </table>
+</body>
+</html>
